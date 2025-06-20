@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Hot and Sweet Machines</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+<div class="logo">
+  <a href="index.html" class="logo-link">
+    🍿 <span class="brand-name">Hot and Sweet Machines</span>
+  </a>
+</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">Products ▼</button>
+        <div class="dropdown-content">
+          <a href="popcorn.html">Popcorn Machine</a>
+          <a href="cotton.html">Cotton Candy Machine</a>
+          <a href="icecream.html">Ice Cream Maker</a>
+          <a href="oven.html">Snack Oven</a>
+        </div>
+        <a href="about.html">About Us</a>
+        <a href="contact.html" class="active">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-section">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a> > <span>Contact Us</span>
+    </div>
+    <h1>Place Your Order for Sweet Success</h1>
+
+    <form id="contactForm" class="contact-form">
+  <div class="options">
+    <p><strong>Looking for:</strong></p>
+    <label><input type="radio" name="looking" value="Popcorn" checked /> Popcorn</label>
+    <label><input type="radio" name="looking" value="Oven" /> Oven</label>
+    <label><input type="radio" name="looking" value="Cotton Candy" /> Cotton Candy</label>
+    <label><input type="radio" name="looking" value="Ice Cream" /> Ice Cream</label>
+    <label><input type="radio" name="looking" value="Other" /> Other</label>
+  </div>
+
+  <input type="text" id="quantity" placeholder="Quantity..." required />
+  <input type="date" id="date" placeholder="Date Needed" required />
+  <input type="text" id="zipcode" placeholder="Delivery Zipcode..." required />
+  <input type="text" id="name" placeholder="Name..." required />
+  <input type="text" id="company" placeholder="Company Name..." required />
+  <input type="text" id="address" placeholder="Address..." required />
+  <input type="tel" id="telephone" placeholder="Telephone..." required />
+  <input type="text" id="fax" placeholder="Fax..." />
+  <input type="email" id="email" placeholder="Email..." required />
+
+  <button type="submit">CONTACT US</button>
+</form>
+
+  </section>
+  <script src="contact.js"></script>
+  <footer class="footer">
+  <div class="footer-logo">
+    <a href="index.html">
+      <img src="favicon.ico" alt="Hot and Sweet Machines Logo" width="25">
+      <span class="footer-brand">Hot and Sweet Machines</span>
+    </a>
+  </div>
+
+  <div class="footer-links">
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="locations.html">locations</a>
+  </div>
+
+  <div class="footer-contact">
+    📞 800-221-3877 &nbsp; | &nbsp; 📧 hot&sweet@gmail.com
+  </div>
+
+  <p class="footer-copy">© 2025 Hot and Sweet Machines. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>

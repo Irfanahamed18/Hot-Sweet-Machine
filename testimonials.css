@@ -1,0 +1,41 @@
+.customer-reviews {
+  background-color: lemonchiffon;
+  padding: 2rem;
+  text-align: center;
+}
+
+.customer-reviews h2 {
+  font-size: 2rem;
+  color: darkred;
+  margin-bottom: 1rem;
+}
+
+.review-slider {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+}
+
+.review-track {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+  width: max-content;
+}
+
+.review {
+  background-color: moccasin;
+  padding: 1rem;
+  border-radius: 10px;
+  min-width: 300px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.review span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #444;
+}
